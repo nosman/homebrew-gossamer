@@ -1,13 +1,13 @@
 cask "gossamer" do
-  version "1.0.9"
+  version "1.0.10"
 
   on_arm do
-    sha256 "24c220c7e0cd866d810394b44e99e52520545331659a95d90a9bcd6c7f96ac6b"
+    sha256 "1bc5cc9014e87f2e4735c44018fddbfbe767d640554b4619b407db1bfd8fdf2f"
     url "https://github.com/nosman/gossamer/releases/download/v#{version}/Gossamer-#{version}-arm64.dmg"
   end
 
   on_intel do
-    sha256 "9baa744b5fe9435ff569f1257a23cfbbe1652d4408b5356d7f938ae6fa829c96"
+    sha256 "3b36ebb1cf2866cf0579dd37d7075a607108038e46829798d2249b4532a38888"
     url "https://github.com/nosman/gossamer/releases/download/v#{version}/Gossamer-#{version}.dmg"
   end
 
